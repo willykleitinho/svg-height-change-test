@@ -1,15 +1,10 @@
 window.onload = () => {
   const svg = document.querySelector('svg');
-  console.log(svg);
-
   const input = document.querySelector('input');
+  input.value = svg.viewBox.baseVal.height;
 
   input.addEventListener('change', (ev) => {
-    console.log(ev.target.value);
-    svg.viewBox;
-
-    const newHeight = Number(ev.target.value.replaceAll(/\D/g, ''));
-    svg.height.baseVal.value = newHeight;
+    const newHeight = Number(ev.target.value);
     svg.viewBox.baseVal.height = newHeight;
   });
 }
