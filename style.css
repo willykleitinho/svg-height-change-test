@@ -1,0 +1,25 @@
+svg {
+  background-color: #bbb;
+  margin: auto;
+}
+
+
+.input {
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.input label {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.input input {
+  font-size: 1rem;
+  width: 10ch;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
